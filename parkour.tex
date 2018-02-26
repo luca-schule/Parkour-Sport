@@ -1,0 +1,66 @@
+\documentclass[ngerman,12pt,titlepage]{scrartcl}
+
+\usepackage[ngerman]{babel}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage[ngerman]{cleveref}
+\usepackage{makeidx}
+\usepackage{csquotes}
+\makeindex
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{caption,subcaption}
+\usepackage{wrapfig}
+
+
+\title{Parkour im Sportunterricht}
+\author{Luca Kiebel \and Luca Hartmann \and Julian Uphoff}
+\date{\today}
+
+% Im Dokument genutzte Makros
+\newenvironment{hlbox}{\begin{tcolorbox}[enhanced,colback=white,colframe=white,sharpish corners,fuzzy halo=0.5mm with lightgray]}{\end{tcolorbox}}
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+
+\usepackage[
+  height=9in,      % height of the text block
+  width=7in,       % width of the text block
+  top=78pt,        % distance of the text block from the top of the page
+  headheight=48pt, % height for the header block
+  headsep=12pt,    % distance from the header block to the text block
+  heightrounded,   % ensure an integer number of lines
+]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all fields
+
+\rhead{Luca Kiebel \\ Luca Hartmann \\ Julian Uphoff}
+\chead{\includegraphics[width=0.09\linewidth]{hbbk-logo}}
+\lhead{Parkour im Sportunterricht}
+\lfoot{ \leftmark}
+\rfoot{Seite \thepage}
+
+\begin{document}
+\maketitle
+\newpage
+	\tableofcontents
+\newpage
+
+\section{Einleitung}
+
+\newpage
+\section{Aufwärmen}
+
+\newpage
+\section{Parkour}
+
+\end{document}
